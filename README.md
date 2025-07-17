@@ -1,69 +1,30 @@
-# React + TypeScript + Vite
+<div style="display: flex; flex-direction: row; align-items: center; gap: 0;">
+  <img src="docs/assets/s.svg" alt="S" style="min-width: 50px; flex-shrink: 0;">
+  <img width="100" src="docs/assets/logo.svg" alt="logo" style="margin: 0 -4px; min-width: 100px; flex-shrink: 0;">
+  <img src="docs/assets/undown.svg" alt="undown" style="width: 325px; min-width: 325px; flex-shrink: 0;">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+# Soundown
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Soundown is a **sleek and intuitive music player** built for learning purposes using **React** and **TypeScript**, with **Shadcn** UI components. It uses **IndexedDB** for efficient and persistent local storage, allowing you to enjoy your music collection directly in your browser.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Upload Your Music:** Easily add your favorite songs to your personal music library.
+* **Create and Manage Playlists:** Organize your tracks into custom playlists for any mood or occasion.
+* **Seamless Playback:** Enjoy smooth and uninterrupted music playback.
+* **Comprehensive Song Information:** View detailed information for each song, including:
+    * **Title**
+    * **Artist**
+    * **Album**
+    * **Duration**
+    * **Album Cover**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **React**  
+* **TypeScript**
+* **IndexedDB**
+* **Shadcn**
