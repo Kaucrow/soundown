@@ -1,7 +1,7 @@
 <div style="display: flex; flex-direction: row; align-items: center; gap: 0;">
-  <img src="docs/assets/s.svg" alt="S" style="min-width: 50px; flex-shrink: 0;">
-  <img width="100" src="docs/assets/logo.svg" alt="logo" style="margin: 0 -4px; min-width: 100px; flex-shrink: 0;">
-  <img src="docs/assets/undown.svg" alt="undown" style="width: 325px; min-width: 325px; flex-shrink: 0;">
+  <img src="docs/assets/s.svg" alt="S" style="width: 4rem; min-width: 4rem; flex-shrink: 0;">
+  <img src="docs/assets/logo.svg" alt="logo" style="margin: 0 -4px; width: 8rem; min-width: 8rem; flex-shrink: 0;">
+  <img src="docs/assets/undown.svg" alt="undown" style="width: 25rem; min-width: 25rem; flex-shrink: 0;">
 </div>
 
 <br>
