@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: row; align-items: center; gap: 0;">
+<div>
   <img src="docs/assets/s.svg" alt="S" style="width: 3.5rem; min-width: 3.5rem; flex-shrink: 0;">
   <img src="docs/assets/logo.svg" alt="logo" style="margin: 0 -4px; width: 6rem; min-width: 6rem; flex-shrink: 0;">
   <img src="docs/assets/undown.svg" alt="undown" style="width: 25rem; min-width: 25rem; flex-shrink: 0;">
@@ -8,7 +8,7 @@
 
 # Soundown
 
-Soundown is a **sleek and intuitive music player** built for learning purposes using **React** and **TypeScript**, with **Shadcn** UI components. It uses **IndexedDB** for efficient and persistent local storage, allowing you to enjoy your music collection directly in your browser.
+[Soundown](https://soundown.vercel.app/) is a **sleek and intuitive music player** built for learning purposes using **React** and **TypeScript**, with **Shadcn** UI components. It uses **IndexedDB** for efficient and persistent local storage, allowing you to enjoy your music collection directly in your browser.
 
 ## Features
 
