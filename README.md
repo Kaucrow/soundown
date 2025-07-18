@@ -1,5 +1,5 @@
 <div>
-  <img src="docs/assets/s.svg" alt="S" style="width: 3.5rem; min-width: 3.5rem; flex-shrink: 0;">
+  <img src="docs/assets/s.svg" alt="S" style="width: 2.7rem; min-width: 2.7rem; flex-shrink: 0;">
   <img src="docs/assets/logo.svg" alt="logo" style="margin: 0 -4px; width: 6rem; min-width: 6rem; flex-shrink: 0;">
   <img src="docs/assets/undown.svg" alt="undown" style="width: 25rem; min-width: 25rem; flex-shrink: 0;">
 </div>
